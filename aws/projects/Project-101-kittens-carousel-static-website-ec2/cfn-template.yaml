@@ -21,7 +21,7 @@ Resources:
   WebServerHost:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-05fa00d4c63e32376
+      ImageId: ami-0fe472d8a85bc7b0e
       InstanceType: t2.micro
       KeyName: robcan
       SecurityGroupIds:
