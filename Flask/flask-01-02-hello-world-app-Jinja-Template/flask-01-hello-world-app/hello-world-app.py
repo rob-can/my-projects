@@ -7,7 +7,7 @@ app = Flask(__name__)
 def head():
     return "<h1>Hello World from Flask!</h1>"
 
-@app.route("/second")  
+@app.route("/marina")  
 def second():
     return "<h1>This is my second page</h1>"
 
